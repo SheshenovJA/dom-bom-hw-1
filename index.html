@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>List of emplyees</title>
+	<link rel="stylesheet" href="css/styles.css" >
+  <script src="js/app.js"></script>
+</head>
+<body>
+<div class="list-box">
+	<ul class="employeeList">
+
+	</ul>
+</div>
+
+	<div class="status-box">
+		<h2>Status Box</h2>
+			Average salary:<span id= "evgSalary" value=""></span>
+			Number of employees:<span class= "employeesCounter" value=""></span>
+	</div>
+  <div class="container">
+    <div class ="header"><h1>List of employees</h1></div>
+		<div class = "err-box">
+		</div>
+			<div class="new-employee">
+	  	<div><label for="firstname">First Name<input type="text" id="enterFirstName" required></label></div>
+	    <div><label for="lastname">Last Name<input type="text" id="enterLastName" minlength="1"></label></div>
+    	<div><label for="salary">Salary<input type="text" id="enterSalary"></label></div>
+    	<div><label for="position">Position<input type="text" id="enterPosition" minlength="1"></label></div>
+    	<button class="addEmployee" onclick="mainFunc()">Add New Employee</button>
+			<div>Max employees<input type="number" id="maxEmploees" value="10"><div>
+			</div>
+
+		</div>
+
+  </div>
+</div>
+
+</body>
+</html>

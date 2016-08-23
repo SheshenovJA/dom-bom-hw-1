@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding:0;
+}
+body{
+  font-family: 'Tahoma', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  background: #404040;
+  line-height: 1.6em;
+}
+.container {
+  border: 2px solid #fff;
+  width: 40%;
+  margin: 40px auto;
+  overflow: auto;
+  max-height: 900px;
+}
+.container h1 {
+  font-size: 18pt;
+  text-align: center;
+  padding: 20px;
+
+}
+
+.header{
+    border: 1px solid #fff;
+}
+.new-employee{
+    width:200px;
+    padding: 15px 10px;
+
+}
+.new-employee button{
+  margin-top: 10px;
+}
+.list-empl li{
+  list-style: none;
+  padding:10px 15px;
+  width: 400px;
+
+}
+.status-box{
+  position: absolute;
+  top: 40px;
+  width: 350px;
+  height: 150px;
+  border: 2px dotted #fff;
+}
+.status-box h2{
+  text-align: center;
+}
+.status-box span{
+  display: block;
+}
+.err-box{
+  color: red;
+}
+.list-box{
+  position: absolute;
+  top: 200px;
+  width: 350px;
+  max-height: 350px;
+  border: 2px dotted #fff;
+}
